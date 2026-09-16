@@ -1,2 +1,9 @@
-# REPOSITORIO3-DE-RAYNER
-CODIGO PRAR CALCULAR EL AREA DE FIGURA - RAYNER
+# CALCULADORA DE ÁREAS - VERSIÓN 1
+# STUDENT: RAYNER CORY CHAGUA
+
+lado = float(input("Ingrese el lado del cuadrado: "))
+
+area = lado * lado
+
+print("El área del cuadrado es: ", area)
+
