@@ -1,9 +1,23 @@
-# CALCULADORA DE ÁREAS - VERSIÓN 1
+# CALCULADORA DE ÁREAS VERSION 2
 # STUDENT: RAYNER CORY CHAGUA
 
-lado = float(input("Ingrese el lado del cuadrado: "))
+print("CALCULADORA DE ÁREAS")
+print("1. Cuadrado")
+print("2. Rectángulo")
 
-area = lado * lado
+opcion = input("Seleccione una opción: ")
 
-print("El área del cuadrado es: ", area)
+if opcion == "1":
+    lado = float(input("Ingrese el lado del cuadrado: "))
+    area = lado * lado
+    print("El área del cuadrado es: ", area)
 
+elif opcion == "2":
+    base = float(input("Ingrese la base del rectángulo: "))
+    altura = float(input("Ingrese la altura del rectángulo: "))
+    area = base * altura
+    print("El área del rectángulo es: ", area)
+
+else:
+    print("Opción no válida")
+    
